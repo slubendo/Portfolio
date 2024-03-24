@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/stepppbj/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin cp assets $DEPLOYPATH            
